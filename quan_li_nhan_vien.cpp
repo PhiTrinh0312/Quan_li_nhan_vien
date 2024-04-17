@@ -241,7 +241,10 @@ class Admin: public Employee {
 	};
 	int main() {
     vector<Employee> employees;
+    
+    //Khoi tao tai khoan mat khau cua admin
     Admin A("1","1");
+    
     Salary S;
     int choice;
     employees.push_back(Employee("phi", "03/12/2002", "123 Main St", "IT",5,1,12));
